@@ -1,0 +1,20 @@
+/* vem com a create react app , so muda algumas copisas no body*/
+@font-face {
+    font-family: 'CalculatorFont';
+    src: url('./fonts/Calculator.ttf');
+}
+
+* {
+    font-family: 'CalculatorFont';
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
